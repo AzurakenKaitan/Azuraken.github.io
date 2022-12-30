@@ -1,0 +1,47 @@
+#topic-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ffec8f;
+  
+  border-left: 5px solid;
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+  
+}
+#topics{
+  margin-top: 100px;
+  background-color: #eeca18;
+  text-align: center;
+  border: 5px solid;
+}
+#topics > span{
+  font-size: 50px;
+  
+}
+#bio{
+  margin-top: 3em;
+}
+.img-topic{
+  width: 20%;
+  margin: 2%;
+  border: 5px solid;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.img-topic:hover{
+  scale: 110%
+}
+
+@media (max-width: 600px) {
+  .img-topic {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .img-topic {
+    width: 40%;
+  }
+
+}

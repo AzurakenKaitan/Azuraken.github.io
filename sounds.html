@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="question.css" rel="stylesheet">
+    <link href="loading.css" rel="stylesheet">
+    <link href="dom.css" rel="stylesheet">
+    <title>QuMaker</title>
+    <link rel="icon" href="images/R.png" type="image/x-icon">
+</head>
+<body>
+    <div id="head">
+        <div id="icon" class="e">
+            <span id="top" class="icons"></span>
+            <span id="mid" class="icons"></span>
+            <span id="bot" class="icons"></span>
+        </div>
+    </div>
+    <div id="black"></div>
+    <div id="side">
+        <div id="side-menu">
+            <span id="menu-text">Menu</span>
+        </div>
+        <div id="contents">
+            <div id="home"><img class="yo"src="images\home.png"><p id="text1">Home</p></div>
+            <div id="ppl"><img class="yo"src="images\ppl.png"><p>About Us</p></div>
+            <div id="contact"><img class="yo" src="images\reviewer.png"><p>Reviewer</p></div>
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="main">
+            <div id="show-result"><svg viewBox="0 0 100 100" id="svg">
+                
+                <path stroke="gray" fill="none" id="outer"stroke-width="5" d="M40 50 A20 20, 0, 1 1, 60 50"/>
+                <path stroke="green" fill="none" stroke-width="5" id="loading" d="M40 50 A20 20, 0, 1 1, 60 50"/>
+            </svg>
+            <span class="here" id="here">3/5</span>
+                <button type="submit" id="button">Next</button>
+            </div>
+           <div id="questions">
+                <div id="question-content">
+                </div>
+                <div id="answers">
+                    <span id="answer1" class="choice">answer1</span>
+                    <span id="answer2" class="choice">answer2</span>
+                    <span id="answer3" class="choice">answer3</span>
+                    <span id="answer4" class="choice">answer4</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="sidebar.js"></script>
+    <script src="loading.js"></script>
+<script src="sounds.js"></script>
+
+
+</body>
+</html>
